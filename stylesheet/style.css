@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+   --Dark-color:rgba(0, 0, 0, 1);
+   --Bright-color:rgba(255, 168, 0, 1);
+   --Light-color:rgba(255, 255, 255, 1);
+}
+body{
+    background-color: white;
+}
+.container{
+    max-width: 1400px;
+    margin: auto;
+    background-image: url(../images/background-image.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 34px 103px 62px 103px;
+}
+nav{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+nav .logo{
+    font-family:" Inter",sans-serif;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 900;
+    line-height: 27.86px;
+    text-align: left;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: hsla(0, 0%, 96%, 1);
+    border-radius: 67px;
+    padding: 19px 26px 18px 22px;
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20.06px;
+    margin: 0 45px 0 0;
+    text-align: left;
+    color:hsla(0, 0%, 0%, 1);
+}
+ .btn{
+    font-family: "Inter",sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20.06px;
+    text-align: left;
+    text-decoration: none;
+    padding: 19px;
+    border-radius: 71px;
+    background-color: hsla(40, 100%, 50%, 1);
+    color: hsla(0, 0%, 100%, 1);
+
+}
+.herobtn{
+    padding: 22px 63px;
+   
+}
+/* here i am gonna stling hero section */
+
+.hero-section{
+    margin-top: 183px;
+    display: flex;
+    justify-content: space-between;
+    gap: 75px;;
+}
+.hero-section .left, .hero-section .right{
+    flex: 1;
+}
+
+.right img{
+   
+    width: 100%;
+    height: aut0;
+  
+  
+}
+.left .content h2{
+    font-family: "Inter" ,sans-serif;
+    font-size: 85px;
+    font-weight: 600;
+    line-height: 94px;
+    text-align: left;
+    color: hsla(0, 0%, 0%, 1);
+}
+.left .content p{
+    font-family: "Inter" ,sans-serif;
+    font-size: 14.6px;
+    font-weight: 400;
+    line-height: 16.69px;
+    text-align: left;
+    color: hsla(0, 0%, 0%, 1);
+    width: 600px;
+    margin-bottom: 29px;
+}
+.extra-content{
+    width: 343px;
+    margin-top: 51px;
+    position: relative;
+}
+.extra-content img{
+    width: 100%;
+}
+#circle{
+    height: 67px;
+    width: 67px;
+    position: absolute;
+    top: 64px;
+    right: 145px;
+}
+#inside-circle{
+    height: 26px;
+    width: 26px;
+    position: absolute;
+    top: 85px;
+    right: 160px;
+   
+}
+.right .extra-cards{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 53px;
+   
+
+    
+    
+}
+.right .extra-cards .card{
+    background-color:hsla(0, 0%, 100%, 1);
+    padding: 22px 13px;
+    border-radius: 17px;
+    border: 4px  solid hsla(0, 0%, 91%, 1);
+}
+.right .extra-cards .card h2{
+    font-family: "Inter",sans-serif;
+    font-size: 35px;
+    font-weight: 300;
+    line-height: 39px;
+    text-align: left;
+
+}
+.somemore-content{
+    margin-top: 32px;
+}
+.somemore-content a{
+    color: hsla(0, 0%, 0%, 1);
+    text-decoration: underline;
+}
